@@ -32,7 +32,7 @@ void union(int u, int v) {
 	}
 	else { 
 		parent[v] = u;
-		parent[u]++;
+		rank[u]++;
 	}
 }
 
